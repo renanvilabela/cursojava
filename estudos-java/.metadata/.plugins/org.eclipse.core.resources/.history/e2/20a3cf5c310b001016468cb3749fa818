@@ -1,0 +1,49 @@
+package Operadores;
+
+public class Operadores {
+	public static void main(String[] args) {
+		String concatenacao = "?";
+		
+		concatenacao = 1+1+1+"1";
+		
+		System.out.println(concatenacao);
+		
+		concatenacao = 1+"1"+1+1;
+		
+		System.out.println(concatenacao);
+		
+		concatenacao = 1+"1"+1+"1";
+		
+		System.out.println(concatenacao);
+		
+		concatenacao = "1"+1+1+1;
+		
+		System.out.println(concatenacao);
+		
+		concatenacao = "1"+(1+1+1);
+		
+		System.out.println(concatenacao);
+		
+		int numero = 5;
+		
+		numero++;
+		//numero = numero +1;
+		
+		System.out.println(numero);
+		
+		boolean variavel = true;
+		
+		variavel = !variavel;
+		
+		System.out.println(variavel);
+		
+		int a, b;
+		
+		a = 5;
+		b = 6;
+		
+		String Resultado =  a==b ? "Verdadeiro" : "Falso";
+		
+		System.out.println(Resultado);
+	}
+}
